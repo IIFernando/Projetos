@@ -36,7 +36,7 @@ def FielAM():
         browser.find_element('xpath', '//*[@id="cpfProcuracao"]').send_keys('a')
         browser.find_element('xpath', '//*[@id="registros"]/tbody/tr[6]/td[4]/a/img').click()
         alert = Alert(browser)
-        alert.accept() 
+        alert.accept()
         slp(5)
         browser.refresh()
         slp(10)
