@@ -254,8 +254,7 @@ def GuiaPE():
             browser.find_element('xpath', '//*[@id="btt_localizar"]').click()
             browser.find_element('xpath', '//*[@id="btt_detalhar"]').click()
             chaveA = browser.find_element('xpath',
-                                          '/html/body/form/table/tbody/tr[2]/td/div/table/tbody/tr/td/input').get_attribute(
-                'value')
+                    '/html/body/form/table/tbody/tr[2]/td/div/table/tbody/tr/td/input').get_attribute('value')
             browser.back()
             slp(3)
 
