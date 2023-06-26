@@ -7,7 +7,7 @@ df = pd.read_excel(input(r'Informe o caminho do arquivo: '), dtype=str)
 
 print('Consultando...')
 
-with open('ConsultaCNPJ.csv' , 'a', newline= '', encoding='ISO-8859-1') as arquivo:
+with open('C:\\Users\\ferna\\Downloads\\ConsultaCNPJ.csv' , 'a', newline= '', encoding='ISO-8859-1') as arquivo:
     
     for c in df['CNPJ']:
         
